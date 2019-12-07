@@ -1,0 +1,19 @@
+{
+  "dataset": "shapes",
+  "batch_size": 256,
+  "lr": 1e-3,
+  "test_batch_size": 10,
+  "epochs": 1500,
+  "seed": 8,
+  "z_dim": 10,
+  "use_cuda": true,
+  "display_step": 100,
+  "save_step": 10000,
+  "basepath": "/home/declan/Documents/Projects/VAE/",
+  "test_csv": "test_dataset.csv",
+  "conds": {"lower_right_green_squares": [0.75, 1.0, 1.25, 1.5, 1.75, 2.0],
+            "upper_right_red": [0.75, 1.0, 1.25, 1.5, 1.75, 2.0],
+            "lower_right_square": [0.75, 1.0, 1.25, 1.5, 1.75, 2.0], 
+            "green_squares": [0.75, 1.0, 1.25, 1.5, 1.75, 2.0]
+           }
+}
